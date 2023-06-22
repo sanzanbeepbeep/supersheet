@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "คณิตศาสตร์วิศวกรรม III",
+        "university": "KU",
+        "code": "010123103",
+        "exam": "midterm",
+        "by": "admin",
+        "bycode": "123456789"
+    },
+    {
+        "id": 2,
+        "name": "คณิตศาสตร์วิศวกรรม III",
+        "university": "MU",
+        "code": "010652103",
+        "exam": "midterm",
+        "by": "admin",
+        "bycode": "123456789"
+    },
+    {
+        "id": 3,
+        "name": "คณิตศาสตร์วิศวกรรม I",
+        "university": "MU",
+        "code": "010123101",
+        "exam": "Final",
+        "by": "admin",
+        "bycode": "123456789"
+    },
+    {
+        "id": 4,
+        "name": "Health For Life",
+        "university": "KU",
+        "code": "065438643",
+        "exam": "midterm",
+        "by": "admin",
+        "bycode": "123456789"
+    }
+]
