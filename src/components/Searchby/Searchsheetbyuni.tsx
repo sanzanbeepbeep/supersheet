@@ -1,8 +1,12 @@
 import React from 'react'
+import Card from '../Cardshow/ShowUniversities'
+
 
 const Searchsheetbyuni = () => {
   return (
-    <div>SearchbyUni</div>
+    <div>
+      <Card/>
+    </div>
   )
 }
 

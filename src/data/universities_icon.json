@@ -1,0 +1,26 @@
+[
+    {
+        "image":"/public/uni_icons/KU_icon.png",
+        "university":"KU"
+    },
+    {
+        "image":"/public/uni_icons/TU_icon.png",
+        "university":"TU"
+    },
+    {
+        "image":"/public/uni_icons/CU_icon.png",
+        "university":"CU"
+    },
+    {
+        "image":"/public/uni_icons/SWU_icon.png",
+        "university":"SWU"
+    },
+    {
+        "image":"/public/uni_icons/MU_icon.png",
+        "university":"MU"
+    },
+    {
+        "image":"/public/uni_icons/SU_icon.png",
+        "university":"SU"
+    }
+]
