@@ -21,7 +21,6 @@ const Home: NextPage = () => {
             <Toptopic/>
             <Searchbar/>
           </Layout>
-        <Card/>
       </Layout>
     </>
   );

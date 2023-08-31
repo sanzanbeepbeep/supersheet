@@ -48,7 +48,6 @@ export function Sheetitem({ id, name, university, code, exam, year, by, bycode, 
                     <div className="mx-2 my-2">
                         <p>{name}</p>
                         <hr className="border-0"/>
-                        <Image src='/wavylines/test.png' alt="wavy" width={80} height={20}></Image>
                         <p className={`${helper(university)}`}>{university}</p>
                         <p>{code}</p>
                         <p>{exam} | {year}</p>

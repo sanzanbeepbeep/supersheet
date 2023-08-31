@@ -15,6 +15,9 @@ module.exports = {
         secondary: "#f4c6c8",
         darkerprimary: "#B8232A",
         loginmethod: "#2a7ce0"
+      },
     },
-  },
+    fontFamily: {
+      'sans-serif': ['Kanit','Montserrat','sans-serif'],
+    },
 }}

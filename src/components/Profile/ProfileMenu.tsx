@@ -35,10 +35,10 @@ const ProfileMenu = () => {
         <hr className='border border-black my-4'></hr>
         <div className='flex flex-col justify-center items-center gap-8 my-8'>
             <div className='hover:bg-primary hover:rounded-full  hover:text-white px-20 py-4'>
-                <a href='#'>ตั้งค่า</a>
+                <a href='/profilebuyer'>ตั้งค่า</a>
             </div>
             <div className='hover:bg-primary hover:rounded-full  hover:text-white px-20 py-4'>
-                <a href='#'>ช่วยเหลือ</a>
+                <a href='/support'>ช่วยเหลือ</a>
             </div>
         </div>
     </div>

@@ -26,7 +26,7 @@ const EditProfile = () => {
                 </select>
             </div>
         </div>
-            <div className='bg-primary w-32 rounded-medium text-center h-8 absolute bottom-0 right-64'>
+            <div className='bg-primary w-32 rounded-medium text-center h-8 float-right mr-16 mt-44'>
                 <input type='submit' className='text-white pt-1' placeholder='บันทึกการตั้งค่า'></input>
             </div>
     </div>

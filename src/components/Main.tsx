@@ -3,13 +3,16 @@ import Searchsheet from './Searchby/SearchsheetMain'
 import Searchsheetbyuni from './Searchby/Searchsheetbyuni'
 import Bestmonthlysell from './Searchby/Bestmonthlysell'
 
+
+
+
 const Home = () => {
   return (
     <>
         <div className='flex flex-row justify-around border-b-2 border-b-black pb-4'>
             <div className='w-1/3 flex flex-col gap-10'>
                 <div className='mb-4'>  
-                    <h1 className='font-extrabold text-8xl'>WELCOME!</h1>
+                    <h1 className={` font-extrabold text-8xl`}>WELCOME!</h1>
                 </div>
                 <div>
                     <p>เพราะการเรียนรู้ไม่มีที่สิ้นสุด พวกเรา supersheet จึงพร้อม</p>

@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/navbar/NavbarTop'
 import ProfileMenu from '../components/Profile/ProfileMenu'
 import BuyerMenu from '../components/Profile/BuyerMenu'
-import EditProfile from '../components/Profile/EditProfile'
+import EditMoney from '../components/Profile/EditMoney'
 
 
 const profilebuyer = () => {
@@ -17,7 +17,7 @@ const profilebuyer = () => {
                 <BuyerMenu/>
             </div>
             <div className='w-3/6 mr-16'>
-                <EditProfile/>
+                <EditMoney/>
             </div>
         </div>
     </>
