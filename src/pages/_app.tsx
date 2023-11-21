@@ -1,6 +1,9 @@
 import { type AppType } from "next/dist/shared/lib/utils";
 import "../styles/globals.css";
 import { Kanit } from '@next/font/google'
+import { SessionProvider } from "next-auth/react";
+import type { AppProps } from "next/app";
+
 
 
 const kanit = Kanit({
@@ -9,10 +12,12 @@ const kanit = Kanit({
 })
 
 
-const MyApp: AppType = ({ Component, pageProps }) => {
+const MyApp: AppType = ({ Component, pageProps }:AppProps) => {
   return (
     <main className={kanit.className}>
-      <Component {...pageProps} />
+      <SessionProvider session={pageProps.session}>
+        <Component {...pageProps} />
+      </SessionProvider>
     </main>
   )
   

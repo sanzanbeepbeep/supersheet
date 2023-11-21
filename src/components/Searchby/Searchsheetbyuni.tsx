@@ -1,11 +1,12 @@
 import React from 'react'
-import Card from '../Cardshow/ShowUniversities'
 
 
 const Searchsheetbyuni = () => {
+
+
   return (
     <div>
-      <Card/>
+      hello
     </div>
   )
 }

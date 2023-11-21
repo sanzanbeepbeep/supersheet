@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Searchtopnav from '../Searchby/Searctopnav'
 import { useUrl } from 'nextjs-current-url'
+import LoginSession from './LoginSession'
 
 
 const Navbar = () => {
@@ -41,12 +42,7 @@ const Navbar = () => {
             </div>
         </div>
         <div className='flex flex-row justify-evenly basis-1/6 items-center'>
-          <Link href='/login'>
-            <form>
-              <button type='submit' className='px-8 py-2 bg-primary text-white font-semibold duration-300 hover:bg-black'>เข้าสู่ระบบ</button>
-            </form>
-          </Link>
-          <p>profile</p>
+          <LoginSession/>
         </div>
     </div>
   )

@@ -1,7 +1,7 @@
 import React from 'react'
 import NavbarTop from '../components/navbar/NavbarTop'
 import RegisterSell from '../components/register/RegisterSell'
-
+import { signIn } from 'next-auth/react'
 
 const sell = () => {
   return (
@@ -14,7 +14,7 @@ const sell = () => {
             <p>เรา &quot;สัญญา&quot; ว่าการลงทะเบียนจะง่ายสุดๆ มาเริ่มไปด้วยกันเลย</p>
         </div>
         <div className=' bg-primary p-4 mb-4 hover:scale-125 ease-in-out duration-300'>
-            <button className='underline text-white'>คลิกเพื่อเข้าสู่ระบบก่อนลงขายชีท</button>
+            <button onClick={() => signIn()} className='underline text-white'>คลิกเพื่อเข้าสู่ระบบก่อนลงขายชีท</button>
         </div>
     </div>
     <RegisterSell/>
