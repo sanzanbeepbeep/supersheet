@@ -2,6 +2,7 @@ import React from 'react'
 import Searchsheet from './Searchby/SearchsheetMain'
 import Searchsheetbyuni from './Searchby/Searchsheetbyuni'
 import Bestmonthlysell from './Searchby/Bestmonthlysell'
+import Recommended from './Searchby/Recommended'
 
 
 
@@ -36,6 +37,7 @@ const Home = () => {
             IMG
             </div>
         </div> 
+        <Recommended/>
         <Searchsheet/>
         <Searchsheetbyuni/>
         <Bestmonthlysell/>

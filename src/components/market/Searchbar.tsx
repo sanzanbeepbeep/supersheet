@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react'
 import Universities from '../../data/Universities.json'
 import sheetItems from '../../data/MOCK_DATA.json'
 import {Sheetitem} from '../Cardshow/Sheetitem'
+import { useRouter } from 'next/router'
+import { set } from 'zod'
+
 
 const Searchbar = () => {
     const[selectedUniversity,setSelectedUniversity] = useState<string|''>('')
@@ -12,7 +15,9 @@ const Searchbar = () => {
 
     const[search,setSearch] = useState<string>('')
 
+    const router = useRouter()
     
+    // console.log("uni",selectedUniversity)
 
 
     const filterItems = () => {
@@ -86,6 +91,11 @@ const Searchbar = () => {
         }
     }
 
+    useEffect(()=>{
+        const {university} = router.query;
+        setSelectedUniversity(university as string);
+        // console.log(university)
+    },[router.query])
 
 
     return (
@@ -104,13 +114,13 @@ const Searchbar = () => {
                 </label>
                 <div className='w-1/12'>
                     <select onChange={selectChange}  id="university" className='' placeholder=''>
-                        <option value='' selected>University</option>
+                        <option value=''>University</option>
                         {Universities.map((item) => (<option key={item.value} value={item.value} label={item.value}></option>))}
                     </select>
                 </div>
                 <div className='border-l-2 border-black pl-2 w-1/12'>
                     <select onChange={selectChange} id="year" className=''>
-                        <option value='' selected>Year</option>
+                        <option value=''>Year</option>
                         <option value="2023">2023</option>
                         <option value="2022">2022</option>
                         <option value="2021">2021</option>
